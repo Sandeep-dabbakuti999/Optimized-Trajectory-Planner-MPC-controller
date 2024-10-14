@@ -4,7 +4,7 @@ The change in the trajectory is done through RL(Optional).
 ## Optimized trajectory planner(Kinematic)
   A fixed track of coordinates was chosen from Foxglove. Then a trajectory is planned.
   ### Algorithm for optimization 
-   OSQP/SQP
+   [OSQP/SQP](https://github.com/osqp/osqp)
 ## MPC controller(Dynamic)
   A control trajectory is formed every four seconds while the vehicle follows the reference optimal trajectory
 ## Reinforcement learning(RL)
